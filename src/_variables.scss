@@ -1,0 +1,18 @@
+//переменные
+$blueColor: #19B5F1;
+$purpleColor: #CA6AEB;
+$linearGradientBlueColor: #0CBAF1;
+$linearGradientPurpleColor:  #E95CE9 ;
+$blackColor: #18181B;
+$blackLightColor: #252532;
+$whiteColor: #FFFFFF;
+
+
+//миксины
+@mixin button($width) {
+    width: $width;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
