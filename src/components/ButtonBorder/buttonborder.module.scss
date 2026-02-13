@@ -1,7 +1,7 @@
 @use "../../variables" as *;
 
 .button {
-  @include button(12.6rem);
+  @include button;
   border: 0.1rem solid $linearGradientBlueColor;
   border-image: $linearGradientMain;
   border-image-slice: 1;

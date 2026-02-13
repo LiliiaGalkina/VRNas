@@ -38,7 +38,9 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <ButtonBorder textButton="Contact us"/>
+          <div className={style.button}>
+            <ButtonBorder textButton="Contact us" />
+          </div>
         </div>
       </div>
     </header>

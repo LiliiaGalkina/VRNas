@@ -5,6 +5,7 @@ $linearGradientBlueColor: #0CBAF1;
 $linearGradientPurpleColor:  #E95CE9 ;
 $blackColor: #18181B;
 $blackLightColor: #252532;
+$greyColor: #B0B0B2;
 $whiteColor: #FFFFFF;
 $linearGradientMain: linear-gradient(
     to right,
@@ -14,8 +15,7 @@ $linearGradientMain: linear-gradient(
 
 
 //миксины
-@mixin button($width) {
-    width: $width;
+@mixin button() {
     height: 5rem;
     display: flex;
     justify-content: center;

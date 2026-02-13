@@ -1,6 +1,10 @@
+import HomeHero from "../HomeHero/HomeHero";
+
 const HomePage = () => {
     return (
-        <main></main>
+        <main>
+            <HomeHero/>
+        </main>
     )
 }
 
