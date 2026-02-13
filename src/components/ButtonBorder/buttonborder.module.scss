@@ -2,23 +2,12 @@
 
 .button {
   @include button(12.6rem);
-  font-size: 1.6rem;
-  line-height: 175%;
-  font-weight: 300;
   border: 0.1rem solid $linearGradientBlueColor;
-  border-image: linear-gradient(
-    to right,
-    $linearGradientBlueColor,
-    $linearGradientPurpleColor
-  );
+  border-image: $linearGradientMain;
   border-image-slice: 1;
-    transition: all 0.8s ease;
+  transition: all 0.8s ease;
 
   &:hover {
-    background: linear-gradient(
-    to right,
-    $linearGradientBlueColor,
-    $linearGradientPurpleColor
-  );
+    background: $linearGradientMain;
   }
 }

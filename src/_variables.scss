@@ -6,6 +6,11 @@ $linearGradientPurpleColor:  #E95CE9 ;
 $blackColor: #18181B;
 $blackLightColor: #252532;
 $whiteColor: #FFFFFF;
+$linearGradientMain: linear-gradient(
+    to right,
+    $linearGradientBlueColor,
+    $linearGradientPurpleColor
+  );
 
 
 //миксины
